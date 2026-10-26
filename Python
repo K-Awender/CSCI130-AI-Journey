@@ -1,0 +1,33 @@
+# hello_ai.py
+# Korbin Awender
+# CSCI 130 - 41083
+# Week 1 Project: Hello AI World
+# October 23, 2026
+
+print("Hello AI World")
+
+mood = input("How are you feeling today").lower()
+
+if mood == "happy":
+    print("That's great to hear!")
+elif mood == "tired":
+    print("Make sure you get some rest.")
+elif mood == "stressed":
+    print("Try taking a short break.")
+elif mood == "anxious":
+    print("Take one slow breath. Try doing " \
+          "small tasks first.")
+elif mood == "sad":
+    print("It is okay to rest today." \
+          "be gentle with yourself")
+else:
+    print("Thanks for sharing.")
+
+print("\nAI Facts:")
+print("- AI systems follow rules or " \
+    "learned patterns.")
+print("- Machine learning is a subset of AI.")
+print("- AI models require date to make " \
+    "predictions.")
+print("- Simple agents respond to inputs using " \
+      "predefined rules.")
